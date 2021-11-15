@@ -1,6 +1,6 @@
 name = "ViennaRNA_jll"
 uuid = "b7a990de-7fa3-5a2e-8a39-d875e4dafecd"
-version = "2.4.18+1"
+version = "2.5.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
