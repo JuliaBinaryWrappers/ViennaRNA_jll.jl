@@ -1,268 +1,268 @@
 [[ViennaRNA]]
 arch = "aarch64"
-git-tree-sha1 = "43148176287aad3005232a390d8c0ea282ff0330"
+git-tree-sha1 = "69824ad32bfc8551dac855e033f7686a73fc7163"
 os = "macos"
 
     [[ViennaRNA.download]]
-    sha256 = "0875eaa6b8705f1abad69d848296c0f2c6f1f94ff966d150ef95abf890d0facb"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "e9c33394092cbc453b0db9e506bfea83a6512d6ba8bc7d3e33fdc6fbd7e93770"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.aarch64-apple-darwin.tar.gz"
 [[ViennaRNA]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e77f7edaf8bef296605b291c820482521ded185e"
+git-tree-sha1 = "8f6e35c59f18e67cebe5efeb50082412b12d2fbc"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "b1a6bbce8b0727c33cc0dfde2fa69cc4ca9908831f630a8be47b44df84e1ef56"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "2b136286eec108a8186c9575061799adc7fde302d66b0399baf50a0c9ea50fe4"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.aarch64-linux-gnu-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "aa1c9dbc7041f5a9d5e3e5569bbb33db740338fc"
+git-tree-sha1 = "e3e953a7526a80cec25e5ff821de9fa3a0b68dd0"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "989d545b39a1427e9b1553df8f5b873c5e3a82fa6c7ad3cd59a7a475c55d632e"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "6b551c7b55a84520718031b1369cfb416b76ea47310e99cad27906eac4e5d034"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.aarch64-linux-gnu-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "086189b6dfd9ef5d925327badf84e707f524edb4"
+git-tree-sha1 = "8973128110a3081459861bb530dccbeaabd1466f"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "ae0c742aa36303bb5e53968e9917f7871a49af951581db175622d3f5a952ed98"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "13cd842fef40fd3ae027d37874e1a8d56c9c20c49fdfc06fc262e34edd99678b"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.aarch64-linux-musl-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e11d42904e9884eb31ebf49ef52809be3e87eeef"
+git-tree-sha1 = "f11735b46eb25765b4d8a691e1f4994272e27508"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "a37b9e2e751c240dfe83d2ad1c829a59b38a2d2bc48abf989e406925f6dbbfef"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "49cbac78e226fe45f1fc6aa9a2373270aed8d3a303c144ea26fddf5252f4b43b"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.aarch64-linux-musl-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2e0f129b4427a7b4883160a867eb397f6d04f3a3"
+git-tree-sha1 = "8abf6d1744af56a9789e3b466c4fa59673122bf9"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "98ec8abda85eb7903d99400e60b9737200d722f60817030903d63beb9f244341"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "2b6a7a9d9542a102a2f4053886d1c7aa7c6e4f40f6eb8492534e2439de898347"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "823afc9ce2d5fdb1592542d12a66f66e3e61cf23"
+git-tree-sha1 = "85466507d24852d6a0c0ed7c14c5c029fd49dc60"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "1b0dfbf04827fcf44205c1b09099efdb1bdaa50194de50cc6ed9ca1a9d2a5c87"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "cd4bd30c8747d8d43ada5daed10aeeb8f2fdba530f42575af474802aa6b27dab"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c66821c5fb9c091cf4ed09d8dd0955bdcb64ee30"
+git-tree-sha1 = "e96295c5846969b9a1636c666ac550ab1a4033ba"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "d2d76de706ef1f4481b9cd2dd2ab1cb5887d9ee3bc4aa3e7ebe797cd6c30298d"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv6l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "621189af63d49cd64fd20d933d8654fbfd03d3559bdb62179206e58fac254318"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv6l-linux-musleabihf-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "db4fef53507cec4f766d9ea06954b20873d31c41"
+git-tree-sha1 = "64dbf8ccef18f97c23ca8e903cb8bd64aa76d0b4"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "8665995e03e70e9a69ce5c0d5c464a166492540b4ad8006aa403738478227716"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "ff0fe0628bf590899400c2e91953314b35b98a06c589e6cb6486d16d1b00d523"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4aec443454db55fec5c444dc9825c9e4a89b3f41"
+git-tree-sha1 = "cb435bd7355cd718741b94766561237e1c146f99"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "4c06b883c24833fc9e455bec3a1e978a9e3945939d459cbd7c5e83489cb1a757"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "0e88248d1f2e154a791618e901cf6e66f365421c1babceeb52bb7711f492c171"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "46b53a97d02673d9affef266c204d9369a87a597"
+git-tree-sha1 = "c91f2c8a3e5a0c6feb73eed60707114b01c52017"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "8dc5932bd320c5e2bb5af89d496e1976b0eb38b352a194c3ceaa25f2aecdd1a3"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "3e3410ceaf0c9c2f25642e1a5a57457962213544874d1ccdb6fa282aa1472bc7"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "87326a31a6f981e7d5dd8101a7fc9061268ec7e6"
+git-tree-sha1 = "07d5c9252bc35bc2c466c0340ff9c3aa6b7a8a82"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "6de1b1ed98f261b06df2ee37ea6534a68dddf4ed380852a649f671d765584e23"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "9896c9db1fcd1748396cc1956e4a2b75ccc3d895336e78e569c9857fe2ce094e"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b7838b8288d4265713b0c59ce7d78d05fe47dbd4"
+git-tree-sha1 = "776443c5e4f43b2e69186798d434d0cfdc1ed964"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "a961d0af4a46d8b74f427836d3b32ff93620cc395a0b1c972f80e9cfa1a26942"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "0a3ddd72bf720119374e79168072c0c330eafd06ea9311d30b998d42b1dbbfee"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef3b0436815aeddfa992b4738ebf8eba85f1df92"
+git-tree-sha1 = "6060b6b1238de7ab4029e10d162c8a7d7b67c523"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "41216311801fa2cf0f73767fa228d76c512d6836d4d73653ff0bfa4b813d17b2"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "dd4eacf6159700b9166b395156a3d5db2f149d40c1bee57495628fbf9e201aa4"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.i686-linux-gnu-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "56c6a420d5063d748050732df80ccd7faee6d692"
+git-tree-sha1 = "5ba4c6d2fa2e5a093cbefc8c0479b9673098161e"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "7db71fbf20492ce81bc02d1739e4818a2cfd3ffe99d4fdd7986f39807b6227ce"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "accafdaaec41570c13af4c21c727a762e0b8a65b0670ca3328f9f045245a2898"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.i686-linux-gnu-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3b316a5480161202c35f7423191c5511dd1d34a4"
+git-tree-sha1 = "7e216b7e78931164bdd6b67963bbea7ca9c8f4b7"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "c0431ce8f2548b1a169a00e2214f12002ebf75f3b2e8dd666c53d89911e70a4c"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "35908ddb5dfeb3baa04f4ca8d51457d081b20e6b1ad0a157203eb1c2b36b9bc2"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.i686-linux-musl-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bea508d63d427d1e7dd3dda51de517e099e2ce5a"
+git-tree-sha1 = "999b8aa03fbb4141632bc4ef95c27b66f4052e0a"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "58ce658c2edf5fb14df8272b4004e4e32368c5ef5833c11e8160bfaeac025edf"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "279adf6b0f4ae8e2fd4296f7664fc1a5e26735068710a1c09a17d96fa9bbc688"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.i686-linux-musl-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "074c8906746a93da20f1f39e73b9a49ec6cce37b"
+git-tree-sha1 = "3436a687c71818d70454389ce477f6699f509b5f"
 os = "windows"
 
     [[ViennaRNA.download]]
-    sha256 = "2abb16b8d55517d5cad7d9f08e69f10f29fb73bf565e3712e0f981a322297d0e"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "1b24738fbefa30bb4e1d3152b83f8e263e416da81b119dde248f9da3c22a7c25"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.i686-w64-mingw32-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "09416d49c64b1632053603e70ecf0deeab75c55f"
+git-tree-sha1 = "d160890d663c30841a0cc61553266637ff5a939d"
 os = "windows"
 
     [[ViennaRNA.download]]
-    sha256 = "9cc612caabfe4a02ddc501ca656cbcb12f1574dec096fdefe1e44c4264f1cffb"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "e3ad22a44c5d159cf875cb114b75425164ddf66b673b5e5d0d4677a0b3536ff5"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.i686-w64-mingw32-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
-git-tree-sha1 = "34435562b115d771ffe0c4a0d01a7b8c8e2da864"
+git-tree-sha1 = "9deb449e042633bbbab931433c2f19071bfd5eb7"
 os = "macos"
 
     [[ViennaRNA.download]]
-    sha256 = "141bc048908937b6a9db7166e7ab5161077db08899f8ec68e23e91db1ffb8694"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "7da6c2b04b3202dcbde6c584c6fac4439d48d91058158183edd4b67d64e43dd8"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-apple-darwin.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "91a54484d2085b66b5c8797eeeabd5c397a55f16"
+git-tree-sha1 = "7dc0f1755b0d88336f8fb7f4f148d511df1c463f"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "b5b49d53ead4f62d1ef235516a47ccf41d7fc821ccf56c9d59654e2103737b8c"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "c8c290a953b2eb3dbee65298957d9bcc217223eba84f48b9b78743f1c4df99fe"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "725e603448ac6c44bfbbf2df16f3225673d1ff38"
+git-tree-sha1 = "205586a912d7d483be60bfe1af60d1f6762e14af"
 libc = "glibc"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "3da0162459e57d19f49f935ab086c3941c6298fe5636faf0441f8ce8a7f8d174"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "df37065ee21c2a4b965bd4d9abbbe798a553e8a4accf0ff18bd1946818d1a5ab"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f3f3e42e2877ad6e19bf45df4d26a16af94a58ca"
+git-tree-sha1 = "d02775bb873bfcb1408324f76f4a176e5b820d40"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "4c0d3aae8e98677e478fe1b82d3a7d367ca83a94c4c3c493fac5471a87a83c65"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "464b1e870599ae1e8df1d16b14e34c6cfb7f26a880ca843b9612310ac07e477a"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-linux-musl-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3d2cc1b12b3e276d605122793560eaa138b8ee9d"
+git-tree-sha1 = "51c13f267df938d65761bdc4e3abc8083addea5f"
 libc = "musl"
 os = "linux"
 
     [[ViennaRNA.download]]
-    sha256 = "c0425eb00680cb4ecb9bd99f18ca4f8e8b7690d09fbc0c98ff72f6b839b76d35"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "fc0e4c523a4b7ab9385d586f94977b5b4714f2ea6b5604afc751c96dd2ca48a9"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-linux-musl-cxx11.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
-git-tree-sha1 = "ed9bdf750e11d26b47d0c63d77cc8863eb95992e"
+git-tree-sha1 = "13def285cbaf8a40f0e40d3dfd4b086a1f371c1a"
 os = "freebsd"
 
     [[ViennaRNA.download]]
-    sha256 = "45197e41b7fe01bc1ddb06a4c6fe8ca3ee9ac77d6fe7cf90af6cbc7cd981f403"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "ebf35f6a6791adf8c23d72a22bf6eb42896182cbdc306553703a38aec76bece2"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-unknown-freebsd.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "348340b041da6d5b1d27a92a54343a32f3baf19c"
+git-tree-sha1 = "aaa9f37147ea41ee65e5df298db6b6c5833986f0"
 os = "windows"
 
     [[ViennaRNA.download]]
-    sha256 = "8a84c914300b3f458211d6545afacc41033ff18025780e476c14aaba54cbb2f8"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "e57f9a441fc04b38247b502b504ee694912f17f8a92738a0fc2c669658f348e0"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-w64-mingw32-cxx03.tar.gz"
 [[ViennaRNA]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "df30990a199873c06f80709077970ec2a9f8a27d"
+git-tree-sha1 = "0cffa3a08bd35b8520179f8ef8aae086aff50534"
 os = "windows"
 
     [[ViennaRNA.download]]
-    sha256 = "63d91b864968e8ffe4df09c19f1a7be727a9d30f08bdbb4fa45f61ae9ba3cb07"
-    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.0+0/ViennaRNA.v2.5.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "0d29c39b7fc9aa0ddb547c95b7c0f30e6d73d239a09c703e6fe46040f0060c7b"
+    url = "https://github.com/JuliaBinaryWrappers/ViennaRNA_jll.jl/releases/download/ViennaRNA-v2.5.1+0/ViennaRNA.v2.5.1.x86_64-w64-mingw32-cxx11.tar.gz"

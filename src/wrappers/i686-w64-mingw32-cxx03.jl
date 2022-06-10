@@ -5,6 +5,7 @@ using MPFR_jll
 using CompilerSupportLibraries_jll
 using GSL_jll
 JLLWrappers.@generate_wrapper_header("ViennaRNA")
+JLLWrappers.@declare_library_product(libRNA, "libRNA.dll")
 JLLWrappers.@declare_executable_product(AnalyseDists)
 JLLWrappers.@declare_executable_product(AnalyseSeqs)
 JLLWrappers.@declare_executable_product(Kinfold)
@@ -38,10 +39,15 @@ JLLWrappers.@declare_executable_product(RNAsubopt)
 JLLWrappers.@declare_executable_product(RNAup)
 JLLWrappers.@declare_executable_product(b2ct)
 JLLWrappers.@declare_executable_product(ct2db)
-JLLWrappers.@declare_library_product(libRNA, "libRNA.dll")
 JLLWrappers.@declare_executable_product(popt)
 function __init__()
     JLLWrappers.@generate_init_header(MPFR_jll, CompilerSupportLibraries_jll, GSL_jll)
+    JLLWrappers.@init_library_product(
+        libRNA,
+        "bin\\libRNA.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         AnalyseDists,
         "bin\\AnalyseDists.exe",
@@ -205,12 +211,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         ct2db,
         "bin\\ct2db.exe",
-    )
-
-    JLLWrappers.@init_library_product(
-        libRNA,
-        "bin\\libRNA.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
