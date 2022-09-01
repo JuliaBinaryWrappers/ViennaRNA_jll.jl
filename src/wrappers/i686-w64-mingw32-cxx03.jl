@@ -2,8 +2,8 @@
 export AnalyseDists, AnalyseSeqs, Kinfold, Kinfold, RNA2Dfold, RNALalifold, RNALfold, RNAPKplex, RNAaliduplex, RNAalifold, RNAcofold, RNAdistance, RNAdos, RNAduplex, RNAeval, RNAfold, RNAforester, RNAheat, RNAinverse, RNAlocmin, RNAmultifold, RNApaln, RNAparconv, RNApdist, RNAplex, RNAplfold, RNAplot, RNApvmin, RNAsnoop, RNAsubopt, RNAup, b2ct, ct2db, libRNA, popt
 
 using MPFR_jll
-using CompilerSupportLibraries_jll
 using GSL_jll
+using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("ViennaRNA")
 JLLWrappers.@declare_library_product(libRNA, "libRNA.dll")
 JLLWrappers.@declare_executable_product(AnalyseDists)
@@ -41,7 +41,7 @@ JLLWrappers.@declare_executable_product(b2ct)
 JLLWrappers.@declare_executable_product(ct2db)
 JLLWrappers.@declare_executable_product(popt)
 function __init__()
-    JLLWrappers.@generate_init_header(MPFR_jll, CompilerSupportLibraries_jll, GSL_jll)
+    JLLWrappers.@generate_init_header(MPFR_jll, GSL_jll, CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libRNA,
         "bin\\libRNA.dll",
