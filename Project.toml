@@ -15,3 +15,4 @@ LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
+GSL_jll = "~2.7.2"

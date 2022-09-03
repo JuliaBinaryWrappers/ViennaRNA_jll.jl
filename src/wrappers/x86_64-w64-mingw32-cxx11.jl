@@ -60,12 +60,12 @@ function __init__()
 
     JLLWrappers.@init_executable_product(
         Kinfold,
-        "bin\\kinwalker.exe",
+        "bin\\Kinfold.exe",
     )
 
     JLLWrappers.@init_executable_product(
         Kinfold,
-        "bin\\Kinfold.exe",
+        "bin\\kinwalker.exe",
     )
 
     JLLWrappers.@init_executable_product(
