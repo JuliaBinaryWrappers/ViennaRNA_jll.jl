@@ -4,8 +4,7 @@ export AnalyseDists, AnalyseSeqs, Kinfold, RNA2Dfold, RNALalifold, RNALfold, RNA
 using MPFR_jll
 using GSL_jll
 using LLVMOpenMP_jll
-using LAPACK_jll
-using OpenBLAS_jll
+using OpenBLAS32_jll
 JLLWrappers.@generate_wrapper_header("ViennaRNA")
 JLLWrappers.@declare_library_product(libRNA, "libRNA.so")
 JLLWrappers.@declare_executable_product(AnalyseDists)
@@ -44,7 +43,7 @@ JLLWrappers.@declare_executable_product(ct2db)
 JLLWrappers.@declare_executable_product(kinwalker)
 JLLWrappers.@declare_executable_product(popt)
 function __init__()
-    JLLWrappers.@generate_init_header(MPFR_jll, GSL_jll, LLVMOpenMP_jll, LAPACK_jll, OpenBLAS_jll)
+    JLLWrappers.@generate_init_header(MPFR_jll, GSL_jll, LLVMOpenMP_jll, OpenBLAS32_jll)
     JLLWrappers.@init_library_product(
         libRNA,
         "lib/libRNA.so",
